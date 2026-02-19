@@ -1,0 +1,223 @@
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Base Styles ===== */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f5f7fa;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+    background-color: #0f172a;  /* professional navy */
+    color: white;
+    padding: 5rem 1.5rem 4rem;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.5px;
+}
+
+.hero-content p {
+    font-size: 1.15rem;
+    color: #cbd5e1;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    position: relative;
+    transition: color 0.2s ease;
+}
+
+/* Hover color */
+.navbar ul li a:hover {
+    color: white;
+}
+
+/* Active link underline */
+.navbar ul li a.active::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #2563eb;
+}
+
+
+/* ===== Main Content Card ===== */
+main {
+    max-width: 850px;
+    margin: 3rem auto;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+section p {
+    font-size: 1rem;
+    color: #334155;
+}
+
+/* ===== Links ===== */
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    color: #64748b;
+    border-top: 1px solid #e2e8f0;
+}
+
+footer a {
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+footer a svg {
+    vertical-align: middle; /* aligns icon with text */
+    margin-right: 6px;      /* space between icon and text */
+}
+
+/* ===== DOWNLOAD BUTTON ===== */
+header a button {
+    background-color: #2563eb; /* nice blue accent */
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+header a button:hover {
+    background-color: #1e40af; /* slightly darker on hover */
+}
+
+/* ===== Base ===== */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f5f7fa;
+    color: #1e293b;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+/* ===== Header ===== */
+header {
+    text-align: center;
+    margin: 3rem 0 2rem;
+}
+
+/* ===== Main Content Card ===== */
+main {
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    background-color: white;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.07);
+}
+
+/* ===== Sections ===== */
+main h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.3rem;
+}
+
+main h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}
+
+main p {
+    font-size: 1rem;
+    color: #334155;
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* ===== Cards / Grids ===== */
+.skills-grid, .projects-grid, .experience-grid, .education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.skills-card, .projects-card, .experience-card, .education-card {
+    background-color: #f8fafc;
+    padding: 1rem 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+/* ===== Links ===== */
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.95rem;
+    color: #64748b;
+    border-top: 1px solid #e2e8f0;
+}
