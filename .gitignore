@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / tooling (only if you later add a build pipeline)
+node_modules/
+dist/
+build/
+.cache/
+
+# Logs / temp
+*.log
+*.tmp
